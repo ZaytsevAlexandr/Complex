@@ -70,20 +70,21 @@ public:
 std::ostream& operator<<(std::ostream& out, Complex number) {
 	if (number.Re == 0 && number.Im == 0)
 		return out << "0";
+	if (number.Re == 0 && number.Im == 1)
+		return out << "i";
+	if (number.Re == 0 && number.Im == -1)
+		return out << "-i";
 	if (number.Re == 0)
 		return out << number.Im << "i";
-	else {
-		if (number.Im == 1)
-			return out << number.Re << "+i";
-		if (number.Im == -1)
-			return out << number.Re << "-i";
-		if (number.Im > 0)
-			return out << number.Re << "+" << number.Im << "i";
-		if (number.Im < 0)
-			return out << number.Re << number.Im << "i";
-		if (number.Im == 0)
-			return out << number.Re;
-	}
+	if (number.Im == 1)
+		return out << number.Re << "+i";
+	if (number.Im == -1)
+		return out << number.Re << "-i";
+	if (number.Im > 0)
+		return out << number.Re << "+" << number.Im << "i";
+	if (number.Im == 0)
+		return out << number.Re;
+	return out << number.Re << number.Im << "i";
 
 }
 
