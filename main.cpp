@@ -58,7 +58,7 @@ int main() {
 	std::cout << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Введите целое число, на которое хотите умножить ваше первое комплексное число: ";
+	std::cout << "Введите целое число, на которое хотите умножить комплексные числа: ";
 #else
 	std::cout << "Enter the integer by which you want to multiply your first complex number: ";
 #endif
@@ -144,7 +144,7 @@ int main() {
 	std::cout << number1.getRe() << ", " << number2.getRe() << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Вот мнимые части ваших двух комплексных чисел: " << std::endl;
+	std::cout << "Вот мнимые части ваших двух комплексных чисел: ";
 #else
 	std::cout << "Here is the imaginary parts of your both complex numbers: ";
 #endif
@@ -166,7 +166,11 @@ int main() {
 #endif
 	}
 
+	std::cout << std::endl << std::endl;
+
 #if OS_MODE==1
+	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
+	SetConsoleTextAttribute(hConsole, 2);
 	std::cout << "Чтобы выйти, нажмите любую клавишу." << std::endl;
 #else
 	std::cout << "To quit press any button." << std::endl;
