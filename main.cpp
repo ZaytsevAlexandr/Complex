@@ -15,14 +15,14 @@ int main() {
 #endif
 
 #if OS_MODE==1
-	std::cout << "Âíèìàíèå! Îáÿçàòåëüíî ââîäèòå íóëåâûå ýëåìåíòû (a+0i, 0+bi, 0+0i)!" << std::endl;
+	std::cout << "Ð’Ð½Ð¸Ð¼Ð°Ð½Ð¸Ðµ! ÐžÐ±ÑÐ·Ð°Ñ‚ÐµÐ»ÑŒÐ½Ð¾ Ð²Ð²Ð¾Ð´Ð¸Ñ‚Ðµ Ð½ÑƒÐ»ÐµÐ²Ñ‹Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ñ‹ (a+0i, 0+bi, 0+0i)!" << std::endl;
 #else
 	std::cout << "Attention! Enter null elements correctly (a + 0i, 0 + bi, 0 + 0i)!" << std::endl;
 #endif
 	Complex number1;
 
 #if OS_MODE==1
-	std::cout << "Ââåäèòå ïåðâîå êîìïëåêñíîå ÷èñëî â ôîðìàòå b+ai: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð¿ÐµÑ€Ð²Ð¾Ðµ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ b+ai: ";
 #else
 	std::cout << "Input first complex number in format b+ai: ";
 #endif
@@ -31,7 +31,7 @@ int main() {
 	std::cout << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Îòëè÷íî! Âû ââåëè: ";
+	std::cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾! Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸: ";
 #else
 	std::cout << "Great! You've entered: ";
 #endif
@@ -41,7 +41,7 @@ int main() {
 	Complex number2;
 
 #if OS_MODE==1
-	std::cout << "Ââåäèòå âòîðîå êîìïëåêñíîå ÷èñëî â ôîðìàòå b+ai: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ðµ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ Ð² Ñ„Ð¾Ñ€Ð¼Ð°Ñ‚Ðµ b+ai: ";
 #else
 	std::cout << "Input second complex number in format b+ai: ";
 #endif
@@ -49,7 +49,7 @@ int main() {
 	std::cin >> number2;
 
 #if OS_MODE==1
-	std::cout << "Îòëè÷íî! Âû ââåëè: ";
+	std::cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾! Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸: ";
 #else
 	std::cout << "Great! You've entered: ";
 #endif
@@ -58,7 +58,7 @@ int main() {
 	std::cout << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Ââåäèòå öåëîå ÷èñëî, íà êîòîðîå õîòèòå óìíîæèòü âàøå ïåðâîå êîìïëåêñíîå ÷èñëî: ";
+	std::cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾, Ð½Ð° ÐºÐ¾Ñ‚Ð¾Ñ€Ð¾Ðµ Ñ…Ð¾Ñ‚Ð¸Ñ‚Ðµ ÑƒÐ¼Ð½Ð¾Ð¶Ð¸Ñ‚ÑŒ Ð²Ð°ÑˆÐµ Ð¿ÐµÑ€Ð²Ð¾Ðµ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 #else
 	std::cout << "Enter the integer by which you want to multiply your first complex number: ";
 #endif
@@ -67,7 +67,7 @@ int main() {
 	std::cin >> intNumber;
 
 #if OS_MODE==1
-	std::cout << "Îòëè÷íî! Âû ââåëè: ";
+	std::cout << "ÐžÑ‚Ð»Ð¸Ñ‡Ð½Ð¾! Ð’Ñ‹ Ð²Ð²ÐµÐ»Ð¸: ";
 #else
 	std::cout << "Great! You've entered: ";
 #endif
@@ -76,75 +76,75 @@ int main() {
 	std::cout << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Âîò èëëþñòðàöèÿ ðàáîòû ïðîãðàììû: ";
+	std::cout << "Ð’Ð¾Ñ‚ Ð¸Ð»Ð»ÑŽÑÑ‚Ñ€Ð°Ñ†Ð¸Ñ Ñ€Ð°Ð±Ð¾Ñ‚Ñ‹ Ð¿Ñ€Ð¾Ð³Ñ€Ð°Ð¼Ð¼Ñ‹: ";
 #else
 	std::cout << "Illustration of working this programm is below: ";
 #endif
 
 #if OS_MODE==1
-	std::cout << "Ñóììà äâóõ êîìïëåêñíûõ ÷èñåë: ";
+	std::cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ð´Ð²ÑƒÑ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 #else
 	std::cout << "Summary of two complex numbers: ";
 #endif
 	std::cout << number1 + number2 << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Ðàçíîñòü äâóõ êîìïëåêñíûõ ÷èñåë: ";
+	std::cout << "Ð Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ Ð´Ð²ÑƒÑ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 #else
 	std::cout << "Substract of two complex numbers: ";
 #endif
 	std::cout << number1 - number2 << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Ïðîèçâåäåíèå äâóõ êîìïëåêñíûõ ÷èñåë: ";
+	std::cout << "ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ð´Ð²ÑƒÑ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 #else
 	std::cout << "Multiply of two complex numbers: ";
 #endif
 	std::cout << number1 * number2 << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Óìíîæåíèå ïåðâîãî êîìïëåêñíîãî ÷èñëà íà äåéñòâèòåëüíîå öåëîå ÷èñëî: ";
+	std::cout << "Ð£Ð¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ð¿ÐµÑ€Ð²Ð¾Ð³Ð¾ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ð½Ð° Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 #else
 	std::cout << "Multiply first complex number by integer: ";
 #endif
 	std::cout << number1 * intNumber << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Óìíîæåíèå âòîðîãî êîìïëåêñíîãî ÷èñëà íà äåéñòâèòåëüíîå öåëîå ÷èñëî: ";
+	std::cout << "Ð£Ð¼Ð½Ð¾Ð¶ÐµÐ½Ð¸Ðµ Ð²Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ð³Ð¾ Ñ‡Ð¸ÑÐ»Ð° Ð½Ð° Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ðµ Ñ†ÐµÐ»Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾: ";
 #else
 	std::cout << "Multiply second complex number by integer: ";
 #endif
 	std::cout << number2 * intNumber << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Ïðå-èíêðåìåíò äåéñòâèòåëüíîé ÷àñòè îáîèõ êîìïëåêñíûõ ÷èñåë: ";
+	std::cout << "ÐŸÑ€Ðµ-Ð¸Ð½ÐºÑ€ÐµÐ¼ÐµÐ½Ñ‚ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð¹ Ñ‡Ð°ÑÑ‚Ð¸ Ð¾Ð±Ð¾Ð¸Ñ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 #else
 	std::cout << "Pre-increment real part of both complex numbers: ";
 #endif
 	std::cout << ++number1 << ", " << ++number2 << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Ïðå-äåêðåìåíò äåéñòâèòåëüíîé ÷àñòè îáîèõ êîìïëåêñíûõ ÷èñåë: ";
+	std::cout << "ÐŸÑ€Ðµ-Ð´ÐµÐºÑ€ÐµÐ¼ÐµÐ½Ñ‚ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ð¾Ð¹ Ñ‡Ð°ÑÑ‚Ð¸ Ð¾Ð±Ð¾Ð¸Ñ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 #else
 	std::cout << "Pre-decrement real part of both complex numbers: ";
 #endif
 	std::cout << --number1 << ", " << --number2 << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Ïîñò-èíêðåìåíò è ïîñò-äåêðåìåíò òî÷íî ðàáîòàþò, ÷åñòíî." << std::endl;
+	std::cout << "ÐŸÐ¾ÑÑ‚-Ð¸Ð½ÐºÑ€ÐµÐ¼ÐµÐ½Ñ‚ Ð¸ Ð¿Ð¾ÑÑ‚-Ð´ÐµÐºÑ€ÐµÐ¼ÐµÐ½Ñ‚ Ñ‚Ð¾Ñ‡Ð½Ð¾ Ñ€Ð°Ð±Ð¾Ñ‚Ð°ÑŽÑ‚, Ñ‡ÐµÑÑ‚Ð½Ð¾." << std::endl;
 #else
 	std::cout << "Post-increment and post-decrement definitely work correctly." << std::endl;
 #endif
 
 #if OS_MODE==1
-	std::cout << "Âîò äåéñòâèòåëüíûå ÷àñòè âàøèõ äâóõ êîìïëåêñíûõ ÷èñåë: ";
+	std::cout << "Ð’Ð¾Ñ‚ Ð´ÐµÐ¹ÑÑ‚Ð²Ð¸Ñ‚ÐµÐ»ÑŒÐ½Ñ‹Ðµ Ñ‡Ð°ÑÑ‚Ð¸ Ð²Ð°ÑˆÐ¸Ñ… Ð´Ð²ÑƒÑ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: ";
 #else
 	std::cout << "Here is the real parts of your both complex numbers: ";
 #endif
 	std::cout << number1.getRe() << ", " << number2.getRe() << std::endl;
 
 #if OS_MODE==1
-	std::cout << "Âîò ìíèìûå ÷àñòè âàøèõ äâóõ êîìïëåêñíûõ ÷èñåë: " << std::endl;
+	std::cout << "Ð’Ð¾Ñ‚ Ð¼Ð½Ð¸Ð¼Ñ‹Ðµ Ñ‡Ð°ÑÑ‚Ð¸ Ð²Ð°ÑˆÐ¸Ñ… Ð´Ð²ÑƒÑ… ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ñ‹Ñ… Ñ‡Ð¸ÑÐµÐ»: " << std::endl;
 #else
 	std::cout << "Here is the imaginary parts of your both complex numbers: ";
 #endif
@@ -153,21 +153,21 @@ int main() {
 	std::string filePath = "numbers.txt";
 	if (save(filePath, number1)) {
 #if OS_MODE==1
-		std::cout << "Ïåðâîå êîìïëåêñíîå ÷èñëî ñîõðàíåíî." << std::endl;
+		std::cout << "ÐŸÐµÑ€Ð²Ð¾Ðµ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð¾." << std::endl;
 #else
 		std::cout << "First complex number saved." << std::endl;
 #endif
 	}
 	if (save(filePath, number2)) {
 #if OS_MODE==1
-		std::cout << "Âòîðîå êîìïëåêñíîå ÷èñëî ñîõðàíåíî." << std::endl;
+		std::cout << "Ð’Ñ‚Ð¾Ñ€Ð¾Ðµ ÐºÐ¾Ð¼Ð¿Ð»ÐµÐºÑÐ½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾ ÑÐ¾Ñ…Ñ€Ð°Ð½ÐµÐ½Ð¾." << std::endl;
 #else
 		std::cout << "Second complex number saved." << std::endl;
 #endif
 	}
 
 #if OS_MODE==1
-	std::cout << "×òîáû âûéòè, íàæìèòå ëþáóþ êëàâèøó." << std::endl;
+	std::cout << "Ð§Ñ‚Ð¾Ð±Ñ‹ Ð²Ñ‹Ð¹Ñ‚Ð¸, Ð½Ð°Ð¶Ð¼Ð¸Ñ‚Ðµ Ð»ÑŽÐ±ÑƒÑŽ ÐºÐ»Ð°Ð²Ð¸ÑˆÑƒ." << std::endl;
 #else
 	std::cout << "To quit press any button." << std::endl;
 #endif
