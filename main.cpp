@@ -1,5 +1,5 @@
 #include "Complex.h"
-#define OS_MODE 1 // 1 - windows, 0 - other
+#define OS_MODE 0 // 1 - windows, 0 - other
 
 #if OS_MODE==1
 #include <Windows.h>
@@ -172,9 +172,8 @@ int main() {
 	HANDLE hConsole = GetStdHandle(STD_OUTPUT_HANDLE);
 	SetConsoleTextAttribute(hConsole, 2);
 	std::cout << "Чтобы выйти, нажмите любую клавишу." << std::endl;
-#else
-	std::cout << "To quit press any button." << std::endl;
-#endif
 	while (!_kbhit()) {}
 	PlaySound(NULL, NULL, SND_PURGE);
+#endif
+
 }
