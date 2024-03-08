@@ -1,5 +1,5 @@
 #include "Complex.h"
-#define OS_MODE 0 // 1 - windows, 0 - other
+#define OS_MODE 1 // 1 - windows, 0 - other
 
 #if OS_MODE==1
 #include <Windows.h>
